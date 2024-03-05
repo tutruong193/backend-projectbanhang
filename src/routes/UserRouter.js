@@ -13,3 +13,4 @@ router.get('/getDetail/:id',  userController.getDetailsUser)
 router.post('/refreshtoken', userController.refreshToken)
 
 module.exports = router
+
