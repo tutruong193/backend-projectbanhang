@@ -5,7 +5,6 @@ const createProduct = (newProduct) => {
         const { name, image, type, countInStock, price, rating, description } = newProduct
         console.log("newProduct", newProduct.name)
         try {
-            
             const checkProduct = await Product.findOne({
                 name: name
             })
